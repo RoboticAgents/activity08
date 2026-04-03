@@ -165,11 +165,9 @@ Stop the current script (`Ctrl+C`). Clear the trail and reset the turtle:
 ros2 service call /reset std_srvs/srv/Empty
 ```
 
-Now edit `drive_pattern.py` to make the turtle draw a **different shape**. You can edit the file using `nano`:
+Now edit `drive_pattern.py` to make the turtle draw a **different shape**.
 
-```bash
-nano ~/drive_pattern.py
-```
+> **Edit on your Mac, not in the container.** The file is volume-mounted, so any changes you save in VS Code on your Mac are instantly available inside the container — no editor needed in the container (`nano` is not installed).
 
 Look for the `# TODO` section. Choose one:
 
