@@ -79,18 +79,7 @@ Screenshot or description of the result:
 
 ## Part 3: Connecting to Project 4
 
-**Q9: Fill in this comparison table between what you did in this activity and what you'll do in P4 Part 3.**
-
-|                                  | Activity 8 (Direct Control) | P4 Part 3 (NavigateToPose) |
-|----------------------------------|----------------------------|---------------------------|
-| **You tell the robot...**        |                            |                           |
-| **Obstacles are handled by...**  |                            |                           |
-| **ROS2 communication pattern**   |                            |                           |
-| **What happens if path is blocked?** |                        |                           |
-
----
-
-**Q10: Compute the quaternion values for a goal facing "up" on the map (yaw = 90 degrees = pi/2 radians). Show your work using the formula from the README.**
+**Q9: Compute the quaternion values for a goal facing "up" on the map (yaw = 90 degrees = pi/2 radians). Show your work using the formula from the README.**
 
 ```
 z = sin(_____ / 2) = _____
@@ -100,6 +89,6 @@ w = cos(_____ / 2) = _____
 
 ---
 
-**Q11: Across activities 5–8, you've used `ros2 node list` and `ros2 topic list` (Activity 5), traced lidar data through Cartographer for SLAM (Activity 6), analyzed Nav2 costmap parameters (Activity 7), and now written a publisher node (Activity 8). How do all of these pieces connect for P4 Part 3, where your Python node sends NavigateToPose goals to Nav2?**
+**Q10: Across activities 5–8, you have used `ros2 node list` and `ros2 topic list` (Activity 5), traced lidar data through Cartographer for SLAM (Activity 6), analyzed Nav2 costmap parameters (Activity 7), and now written a publisher node (Activity 8). How do all of these pieces connect for P4 Part 3, where your Python node sends NavigateToPose goals to Nav2?**
 
 (your answer)

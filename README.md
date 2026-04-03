@@ -1,6 +1,6 @@
 # Activity 8: Writing Your First ROS2 Node — Direct Velocity Control
 
-This activity is a companion to the [Writing ROS2 Nodes slides](https://learnroboticagents.com/slides/ros2nodes.html). Before you write the `NavigateToPose` action client in Project 4 Part 3, you'll first experience what it means to control a robot by **publishing velocity commands directly** — using the same `Twist` message type but without any navigation intelligence.
+This activity is a companion to the [Writing ROS2 Nodes slides](https://learnroboticagents.com/slides/ros2nodes.html). Before you write the `NavigateToPose` action client in Project 4 Part 3, it is helpful to first experience what it means to control a robot by **publishing velocity commands directly** — using the same `Twist` message type but without any navigation intelligence.
 
 You'll use **TurtleSim** — a lightweight 2D robot simulator built into ROS2. The turtle responds to velocity commands just like a TurtleBot, but in a simple 2D window where it **draws a trail** as it moves. This lets you see exactly what your node is doing.
 
@@ -46,7 +46,7 @@ The **ROS2 patterns are identical** — you create a node, create a publisher, a
 
 ## Part 1: Exploring the ROS2 Graph
 
-In Activities 5 and 6, you used `ros2 node list`, `ros2 topic list`, and `ros2 topic echo` to inspect TurtleBot3 in Gazebo. Now you'll use the **same tools** with a completely different simulator — demonstrating that these tools work with *any* ROS2 system.
+In Activities 5 and 6, you used `ros2 node list`, `ros2 topic list`, and `ros2 topic echo` to inspect TurtleBot3 in Gazebo. Now you'll use the **same tools** with a completely different simulator — these tools work with *any* ROS2 system.
 
 ### Step 1: Launch TurtleSim
 
