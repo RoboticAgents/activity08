@@ -214,13 +214,3 @@ w = math.cos(yaw / 2.0)   # → 0.7071
 ```
 
 Use this formula to answer the quaternion question in `experiments.md`.
-
-### What's Next?
-
-| Step | What | Where |
-|------|------|-------|
-| **You just did** | Direct velocity control (publisher + timer) | Activity 8 |
-| **Next** | Goal-based navigation (action client + callbacks) | P4 Part 3 |
-| **After that** | Sim-to-real transfer with physical TurtleBot 4 | P4 Part 4 |
-
-Answer the reflection questions in `experiments.md`.
