@@ -8,4 +8,4 @@ services:
     environment:
       - RESOLUTION=1280x720
     volumes:
-      - ./drive_pattern.py:/root/drive_pattern.py
+      - ./drive_pattern.py:/home/ubuntu/drive_pattern.py
