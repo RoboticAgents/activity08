@@ -1,0 +1,5 @@
+services:
+  ros2-turtlesim:
+    environment:
+      - RESOLUTION=1024x576
+    shm_size: "1gb"

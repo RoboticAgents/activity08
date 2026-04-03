@@ -1,0 +1,11 @@
+services:
+  ros2-turtlesim:
+    image: janyljumadinova/turtlesim-environment:latest
+    container_name: ros2-turtlesim
+    ports:
+      - "6080:80"
+    shm_size: "512mb"
+    environment:
+      - RESOLUTION=1280x720
+    volumes:
+      - ./drive_pattern.py:/root/drive_pattern.py
